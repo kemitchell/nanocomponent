@@ -15,6 +15,7 @@ function MyButton () {
   this._color = null
   Nanocomponent.call(this)
 }
+
 MyButton.prototype = Object.create(Nanocomponent.prototype)
 
 MyButton.prototype._render = function () {
